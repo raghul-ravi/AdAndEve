@@ -212,8 +212,8 @@ function rnrFullWidth(){
 		jQuery('.full-width').each(function(){		
 				jQuery(this).css({
 					'margin-left': - $offset_block,
-					'padding-left': $offset_block,
-					'padding-right': $offset_block
+					'padding-left': $offset_block ,
+					'padding-right': $offset_block 
 				});			
 			
 		});

@@ -188,7 +188,7 @@ html[xmlns] .slides {
 .flex-control-paging li a {
 	width: 20px;
 	height: 8px;
-	display: block;
+	display: none !important;
 	background: #444444;
 	background: rgba(0, 0, 0, 0.6);
 	cursor: pointer;
@@ -212,10 +212,10 @@ html[xmlns] .slides {
 	background: #000;
 	background: rgba(0, 0, 0, 0.9);
 	cursor: default;
-	-webkit-box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.1);
-	-moz-box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.1);
-	-o-box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.1);
-	box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.1);
+	-webkit-box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.3);
+	-moz-box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.3);
+	-o-box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.3);
+	box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.3);
 }
 .flex-control-thumbs {
 	margin: 5px 0 0;
@@ -288,4 +288,27 @@ right: 10px;
 
 .section-slider {
 	margin-bottom:40px;
+}
+
+.btn-nav-nav {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #cfdde6;
+  padding: 10px 20px 10px 20px;
+  border: solid #cacbcc 2px;
+  text-decoration: none;
+}
+
+.btn-nav-nav:hover {
+  background: #c01f31;
+  text-decoration: none;
+}
+
+
+.therow {
+    text-align: center;
 }
