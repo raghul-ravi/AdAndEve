@@ -49,7 +49,7 @@ nav .container .columns, nav .cotainer .column, #ajaxpage .columns, #ajaxpage .c
 .copyright .social-icons .social-icon{margin-bottom:10px;}
 .copyright p{margin-top:20px;font-size:11px;}
 .parallax .parallax-content{padding:70px 0;}
-.team-member{width:100% !important;float:none;margin-bottom:40px;}
+/*.team-member{width:100% !important;float:none;margin-bottom:40px;}*/
 .testimonial-icon, .twitter-feed-icon{display:none;}
 #filters{margin-top:40px;}
 #filters ul li a{padding:0;margin:0;}
@@ -104,7 +104,7 @@ a#button-newsletter{width:66%;}
 .pricing-table .featured{margin-top:10px !important;}
 .mc4wp-form{padding:0 20px;}
 .parallax .contact-details h1{font-size:38px !important;}
-.rnr-carousel .item .rnr-column{width:400px !important;}
+/*.rnr-carousel .item .rnr-column{width:400px !important;}*/
 #pp_full_res{padding:0 2%;}
 }
 @media only screen and (max-width:479px){.home-logo-text a{font-size:32px;}
